@@ -27,69 +27,69 @@
     </header>
 
     <main>
-        <section class="first-section">
-            <article class="deportista">
-                <img src="img/deportista.png" href="deportista">
-            </article>
+        <section class="deportista-section">
+            <img src="img/deportista.png" href="deportista">
             <article class="FraseHome">
                 <h1>LIVE: Follow the Telcel Huawei Mexico Open 2022 for free</h1>
                 <p>
                     The final Open of the 2022 World Padel Tour season is underway, don't miss out on any of the action!
                 </p>
-            </article>
-            <a class="boton-contact" href="#conctact">Contact</a>
+                <div class="boton-contact">
+                    <a  href="#conctact">Contact</a>
+                </div>   
+            </article> 
         </section>
-        <section class="second-section">
-            <article class="question">
+        <section class="question-section">
                 <h2>What´s different between pros?</h2>
-                <p>Manage provides all the functionality your teas needs, without the complexity. Our software is tailor-made for modern digital product teams  </p>
-            </article>
+                <div>
+                    <p>Manage provides all the functionality your teas needs, without the complexity. Our software is tailor-made for modern digital product teams  </p>
+                </div>
         </section>
         <section class="card-section">
             <article class="card">
-                <p>
-                    <span>
+                <p id="titulo">
+                    <span id="number">
                         01
                     </span>
-                    <span>
+                    <span id="item">
                         Track company-wide progress
                     </span>
                 </p>
-                <p>
+                <p id="parrafo">
                     Donec elit est, mattis lacinia arcu eu, efficitur consequat augue. Nam tellus sem, tempus pellentesque egestas vitae, efficitur vel nulla. Etiam vel orci rutrum, placerat quam eget, consequat dolor.
                 </p>
             </article>
             <article class="card">
-                <p>
-                    <span>
+                <p id="titulo">
+                    <span id="number">
                         02
                     </span>
-                    <span>
+                    <span id="item">
                         Advance built-in reports
                     </span>
                 </p>
-                <p>
+                <p id="parrafo">
                     Donec elit est, mattis lacinia arcu eu, efficitur consequat augue. Nam tellus sem, tempus pellentesque egestas vitae, efficitur vel nulla. Etiam vel orci rutrum, placerat quam eget, consequat dolor.
                 </p>
             </article>
             <article class="card">
-                <p>
-                    <span>
+                <p id="titulo">
+                    <span  id="number">
                         03
                     </span>
-                    <span>
+                    <span id="item">
                         Everything you need in one place
                     </span>
                 </p>
-                <p>
+                <p id="parrafo">
                     Donec elit est, mattis lacinia arcu eu, efficitur consequat augue. Nam tellus sem, tempus pellentesque egestas vitae, efficitur vel nulla. Etiam vel orci rutrum, placerat quam eget, consequat dolor.
                 </p>
             </article>            
         </section>
-        <section class="Best-month-section">
+        <section class="best-month-section">
             <h3>Best of the month</h3>
-            <div class="articles">
-                <article class="personal-article">
+            <div class="stories">
+                <article class="personal-article" id="sanyo1">
                     <div>
                     <img src="img/avatar-sanyo.png" href="sanyo"/>
                     </div>
@@ -97,17 +97,19 @@
                     <p>
                         Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris, ut suscipit massa ipsum eu neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
                     </p>
+                    <div id="rectangulo"></div>
                 </article>
-                <article class="personal-article">
+                <article class="personal-article" id="lebron2">
                     <div>
-                    <img src="img/avatar.lebron.png" href="lebron"/>
+                        <img src="img/avatar.lebron.png" href="lebron"/>
                     </div>
                     <h4>Lebron</h4>
                     <p>
                         Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris, ut suscipit massa ipsum eu neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
                     </p>
+                    <div id="rectangulo"></div>
                 </article>
-                <article class="personal-article">
+                <article class="personal-article" id="navarro3">
                     <div>
                     <img src="img/avatar-navarro.png" href="navarro"/>
                     </div>
@@ -115,31 +117,29 @@
                     <p>
                         Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris, ut suscipit massa ipsum eu neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
                     </p>
+                    <div id="rectangulo"></div>
                 </article>
             </div>
-            <div>
-                <a class="boton-more" href="#more">More</a>
+            <div class="boton-more">
+                <a  href="#more">More</a>
             </div>
         </section>
         <section class="get-for-it">
             <h2>Get to know the best temas of the year</h2>
-            <div>
-                <a class="boton-go-for-it" href="#goforit">Go for it</a>
+            <div class="boton-go-for-it">
+                <a  href="#goforit">Go for it</a>
             </div>
         </section>
     </main>
 
     <footer>
         <section class="go">
-           <form action="/search" method="POST">     
-            <input type="text" name="search" placeholder="Update in your inbox...">
-            <p id="button-go">
-                <span>
+            <form action="/search" method="POST">     
+                <input type="text" name="search" placeholder="Update in your inbox...">
+                <p id="button-go">
                     <button type="submit">Go</button>
-                </span>    
-            </p>
+                </p>
            </form>
-
         </section>
         <nav class="banner-footer">
                 <ul>
@@ -175,7 +175,7 @@
             </div>
         </section>
         <section>
-            <p>
+            <p id="copyright">
                 Copyright 2020. All Rights Reserved
             </p>
         </section>
