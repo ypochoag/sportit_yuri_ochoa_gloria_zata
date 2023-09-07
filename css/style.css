@@ -152,6 +152,7 @@ h2{
     font-style: normal;
     font-weight: 500;
     line-height: 151.1%; 
+    padding-right: 1rem;
 }
 
 
@@ -342,7 +343,6 @@ h4{
 footer{
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;    
     justify-content: space-between;
     align-content: center;
@@ -352,9 +352,60 @@ footer{
     text-align: center;
 }
 
+
+.go {
+    display: flex;
+    padding:0.625rem 3.125rem 0.625rem 3.125rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.563rem;
+}
+
+.go form{
+    display: flex;
+    height: 2.75rem;
+    padding: 0.625rem;
+    align-items: center;
+    gap: 0.625rem;
+    flex: 1 0 0;
+    border-radius: 3.125rem;
+    background: #FFF;
+}
+
+.go form input{
+    border: none;
+}
+
+
+
+.go #button-go{
+    border-radius: 1.875rem;
+    background:#8B48BF;
+    padding: 0.625rem 1.563rem;
+    color: #FFF;
+    font-size: 0.824rem;
+    font-weight: 500;
+    border:none;
+}
+
+
+
 .banner-footer {
     display: flex;
-    flex-direction: column;  
+    justify-content: center;
+    gap: 9.375rem;
+
+}
+
+.banner-footer ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
 }
 
 .icons{
