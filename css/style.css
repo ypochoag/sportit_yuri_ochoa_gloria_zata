@@ -38,16 +38,6 @@ header{
     display: flex;
 }
 .contact-boton{
-    width: 8.375rem;
-    height: 2.75rem;
-    padding: 10rem;
-    justify-content: center;
-    align-items: center;
-    gap: 0.625rem;
-    border-radius: 3.125rem;
-    background: #8B48BF;
-    box-shadow: 0rem 0.25rem 0.438rem 0rem rgba(0, 0, 0, 0.25);
-    font-size: 0.813rem;
     display: none;
 }
 /* ----------------- menu style ---------------------*/
@@ -87,20 +77,25 @@ h1{
     font-weight: 700;
     line-height: 157.1%;
 }
-.FraseHome div {
+.FraseHome div{
+    display: flex;
     width: 8.375rem;
     height: 2.75rem;
     border-radius: 3.125rem;
     background: #8B48BF;
     box-shadow: 0rem 0.25rem 0.438rem 0rem rgba(0, 0, 0, 0.25);
     align-self: flex-end;
-    padding: 0.625rem;
-    padding-left: 2.5rem;
+    justify-content: center;
+    align-items: center;
 }
 .FraseHome div a{  
+    text-decoration: none;
     font-size: 0.813rem;
     color: aliceblue;
     font-weight: 500; 
+}
+.FraseHome div a:hover{
+    color: #c2c2c2;
 }
 .question-section {
     display: flex;
@@ -119,7 +114,7 @@ h2{
     font-weight: 700;
     line-height: 114.6%;
 }
-.question-section div p{
+.question-section div{
     color: #FFF;
     font-size: 1rem;
     font-style: normal;
@@ -167,7 +162,6 @@ h2{
     font-weight: 700;
 }
 .card #parrafo{
-    width: 27rem;
     display: flex;
     padding: 0.625rem;
     color: #B3B2B7;
@@ -238,20 +232,26 @@ h4{
     display: none;
 }
 .boton-more{
+    display: flex;
     width: 8.375rem;
     height: 2.75rem;
     border-radius: 3.125rem;
     background: #8B48BF;
     box-shadow: 0rem 0.25rem 0.438rem 0rem rgba(0, 0, 0, 0.25);
     align-self:center;
-    padding: 0.625rem;
-    padding-left: 3rem;
+    justify-content: center;
+    align-items: center;
 } 
-.boton-more a{  
+.boton-more a{ 
+    text-decoration: none;     
     font-size: 0.813rem;
     color: #FFF;
     font-weight: 500; 
 }
+.boton-more  a:hover{
+    color: #c2c2c2;
+}
+
 .get-for-it {
     display: flex;
     padding: 2.5rem 3.125rem;
@@ -262,7 +262,7 @@ h4{
 }
 .get-for-it h2{
     color: #FFF;
-    width: 20.25rem;
+    width: 70%;
     text-align: center;
     font-size: 2.5rem;
     font-weight: 700;
@@ -270,21 +270,36 @@ h4{
     letter-spacing: -0.013rem;
 }
 .boton-go-for-it{
+    display: flex;
     width: 8.375rem;
     height: 2.75rem;
     border-radius: 3.125rem;
     background: #232C50;;
     box-shadow: 0rem 0.25rem 0.5rem 0rem rgba(0, 0, 0, 0.25);
     align-self:center;
-    padding: 0.625rem;
-    padding-left: 2.5rem;
+    justify-content: center;
+    align-items: center;
 }   
 .boton-go-for-it a{  
+    text-decoration: none;
     font-size: 0.824rem;
     color: #FFF;
     font-weight: 500; 
 }
+.boton-go-for-it a:hover{
+    color: #aca7a7;
+}
+
+/* ----------------- footer style ---------------------*/
+
 footer{
+    display: flex;
+    flex-direction: column;   
+    background: #1E1E26;
+    text-align: center;
+}
+
+.footerfinal{
     width: 100%;
     display: flex;
     flex-direction: column;    
@@ -292,8 +307,6 @@ footer{
     align-content: center;
     padding:2.5rem 0rem 2.5rem 0rem;
     gap: 1.563rem;  
-    background: #1E1E26;
-    text-align: center;
 }
 .go {
     padding:0.625rem 3.125rem 0.625rem 3.125rem;
@@ -360,9 +373,178 @@ footer .logo{
     padding-left: 45%;
 }
 #copyright{
-    padding: 0.625rem;
+    padding-bottom: 3rem;
     gap: 0.625rem;
     color: #8C8C94;
     font-size: 0.781rem;
     font-weight: 500;
+
+}
+/* ----------------- media Queries style ---------------------*/
+@media (min-width: 481px){
+    header{
+        padding:4rem 12%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .banner-header {
+        display: flex;
+        justify-content: center;
+       }
+    .banner-header ul{
+        display: flex;
+        gap:1.75rem;
+        font-size: 0.813rem;
+        font-weight: 500;
+        line-height: 176.1%;
+        list-style: none;
+    }
+    .banner-header ul li a{
+        text-decoration: none;
+        color: #242E52;
+    }
+    .banner-header ul li a:hover{
+        color: #8B48BF;
+    }
+    .banner-menu{
+        display: none;
+    }
+    .contact-boton {
+        display: flex;
+        width: 8.375rem;
+        height: 2.75rem;
+        border-radius: 3.125rem;
+        background: #8B48BF;
+        box-shadow: 0rem 0.25rem 0.438rem 0rem rgba(0, 0, 0, 0.25);
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-boton a{  
+        text-decoration: none;
+        font-size: 0.813rem;
+        color: #FFF;
+        font-weight: 500;    
+    }
+    .contact-boton a:hover{
+        color: #c2c2c2;
+    }
+
+    /* ----------------- menu style ---------------------*/
+    .deportista-section{
+        flex-direction: row;    
+        padding:4rem 10rem;
+        align-items: center;
+    }
+    .deportista-section img{
+        width: 50%;
+        height: 50%;
+    }
+    .FraseHome{ 
+        width:50%; 
+    }
+
+    .question-section {
+        background: #8B48BF;
+        padding:2.5rem 10rem;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+    }
+    .h2{
+        flex-basis: 50%;
+    }
+    .question-section div{ 
+        flex-basis: 50%;
+    }
+
+    .card-section {
+        flex-direction: row;
+        background: #FAFAFA;
+        flex-wrap: wrap;
+        justify-content: space-around; 
+     }
+     .card {
+        position: relative;
+        min-width: 33rem;
+     }
+    .card #titulo{
+        border-radius: none;
+        background: none;
+    }
+    .card #number{
+        position: absolute;
+    }
+    .card #item{
+        padding-left: 5rem;
+    }
+    .card #parrafo{
+        padding-left:  5rem;
+        min-width: 31.25rem;
+    }
+
+    .best-month-section{
+        align-items: center;
+    } 
+    .stories{
+        flex-wrap: wrap; 
+        justify-content: center;
+        flex-direction: row;
+    }
+    .personal-article{
+        margin-left: 2rem;
+    }
+
+    #sanyo1{
+        display: flex;
+    }
+    #navarro3{
+        display: flex;
+    }
+
+    .get-for-it {
+        flex-direction: row;
+        justify-content: space-between;
+        background: #8B48BF;
+        padding: 5% 13%;
+    }
+    .get-for-it h2{
+        color: #FFF;
+        text-align: left;
+        width: 33rem;
+    }
+    .boton-go-for-it{
+        background: #FFF;
+    }   
+    .boton-go-for-it a{  
+        color: #8B48BF;
+    }
+    
+    /* ----------------- footer style ---------------------*/
+    
+
+    .footerfinal{
+        padding: 5% 5% 0% 5%;
+        flex-direction: row-reverse;     
+    }
+
+    .iconosylogo{
+        display: flex;
+        flex-direction: column-reverse; 
+        justify-content: space-between;
+    }
+    
+    footer .logo{
+        padding: 0%;
+        justify-content: left;
+    }
+
+    footer .icons{
+        padding: 1%;
+    }
+
+    #copyright{
+        text-align: right;
+        padding-right: 8%;
+    }
+    
 }
