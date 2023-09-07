@@ -2,21 +2,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
 
 /* ----------------- General settings ---------------------*/
-
 *{
     box-sizing: border-box;
     margin:0;
     padding:0;
 }
-
 body{
     font-family: 'Be Vietnam Pro', sans-serif;
 }
-
-
-
 /* ----------------- Header style ---------------------*/
-
 header{
     width: 100%;
     display: flex;
@@ -25,13 +19,11 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-
 .logo{
     width: 10rem;
     height: 1.8rem;
     display: flex;
 }
-
 .banner-header{
     color: rgb(36, 46, 82);
     font-size: 13px;
@@ -40,13 +32,11 @@ header{
     line-height: 176.1%;
     display: none;    
 }
-
 .banner-menu{
     width: 3rem;
     height: 3rem;
     display: flex;
 }
-
 .contact-boton{
     width: 8.375rem;
     height: 2.75rem;
@@ -60,9 +50,7 @@ header{
     font-size: 0.813rem;
     display: none;
 }
-
 /* ----------------- menu style ---------------------*/
-
 .deportista-section{
     width: 100%;
     display: flex;
@@ -72,14 +60,10 @@ header{
     padding:2rem 3rem 2rem 2rem;
     gap: 6.25rem ;
 }
-
 .deportista-section img{
     width: 26rem;
     height: 25rem;
 }
-
-
-
 .FraseHome{
     width: 100%;
     display: flex;
@@ -87,7 +71,6 @@ header{
     justify-content: space-between;
     gap: 1.25rem ;
 }
-
 h1{
     color: rgb(35, 44, 80);
     text-align: right;
@@ -97,7 +80,6 @@ h1{
     line-height: 114.6%; 
     letter-spacing: -0.106rem;
 }
-
 .FraseHome p{
     color: rgb(0, 0, 0);
     text-align: right;
@@ -105,9 +87,6 @@ h1{
     font-weight: 700;
     line-height: 157.1%;
 }
-
-
-
 .FraseHome div {
     width: 8.375rem;
     height: 2.75rem;
@@ -118,15 +97,11 @@ h1{
     padding: 0.625rem;
     padding-left: 2.5rem;
 }
-
 .FraseHome div a{  
     font-size: 0.813rem;
     color: aliceblue;
     font-weight: 500; 
 }
-
-
-
 .question-section {
     display: flex;
     width: 100%;
@@ -137,7 +112,6 @@ h1{
     background: #3CDDF3;
     gap: 3.125rem;
 }
-
 h2{
     color:  #FFF;
     font-size: 2.25rem;
@@ -145,7 +119,6 @@ h2{
     font-weight: 700;
     line-height: 114.6%;
 }
-
 .question-section div p{
     color: #FFF;
     font-size: 1rem;
@@ -154,8 +127,6 @@ h2{
     line-height: 151.1%; 
     padding-right: 1rem;
 }
-
-
 .card-section {
     width: 100%;
     display: flex;
@@ -165,7 +136,6 @@ h2{
     padding:4.25rem 0rem 2rem 2.125rem;
     gap: 1.25rem ;
 }
-
 .card {
     width: 27.875rem;
     display: flex;
@@ -174,7 +144,6 @@ h2{
     align-content: stretch;
     gap: 1.313rem ;
 }
-
 .card #titulo{
     display: flex;
     align-items: center;
@@ -183,7 +152,6 @@ h2{
     border-radius: 3.125rem 0rem 0rem 3.125rem;
     background: rgba(139, 72, 191, 0.30);
 }
-
 .card #number{
     border-radius: 1.875rem;
     background:#8B48BF;
@@ -192,14 +160,12 @@ h2{
     font-size: 1rem;
     font-weight: 700;
 }
-
 .card #item{
     color: #323851;
     letter-spacing: -0.24px;
     font-size: 1rem;
     font-weight: 700;
 }
-
 .card #parrafo{
     width: 27rem;
     display: flex;
@@ -210,14 +176,12 @@ h2{
     line-height: 156.6%;
     letter-spacing: -0.01rem;
 }
-
 .best-month-section{
     display: flex;
     flex-direction: column;
     padding: 1.063rem ;
     gap: 3rem ;
 } 
-
 h3{
     color: #242E53;
     font-size: 2.451rem;
@@ -226,15 +190,12 @@ h3{
     letter-spacing: -0.025px;
     text-align: center;
 }
-
-
 .stories{
     display: inline-flex;
     flex-direction: column;
     align-items: center;
     position: relative;
 }
-
 .personal-article{
     width: 24.375rem;
     display: inline-flex;
@@ -243,13 +204,11 @@ h3{
     text-align: center;
 
 }
-
 .personal-article div img{
     border-radius: 50%;
     max-height: 10rem;
     max-width: 10rem;
 }
-
 h4{
     color: #3F4868;
     font-size: 1.004rem;
@@ -257,14 +216,12 @@ h4{
     line-height: 156.6%; 
     letter-spacing: -0.01rem;
 }
-
 .personal-article p{
     color: #B9B9C1;
     font-size: 1rem;
     font-weight: 500;
     line-height: 156.6%;
 }
-
 .personal-article #rectangulo{
     position: absolute;
     width: 100%;
@@ -274,16 +231,12 @@ h4{
     bottom: 0%;
     left: 0%;
 }
-
-
 #sanyo1{
     display: none;
 }
-
 #navarro3{
     display: none;
 }
-
 .boton-more{
     width: 8.375rem;
     height: 2.75rem;
@@ -293,14 +246,12 @@ h4{
     align-self:center;
     padding: 0.625rem;
     padding-left: 3rem;
-}
-    
+} 
 .boton-more a{  
     font-size: 0.813rem;
     color: #FFF;
     font-weight: 500; 
 }
-
 .get-for-it {
     display: flex;
     padding: 2.5rem 3.125rem;
@@ -309,19 +260,15 @@ h4{
     gap: 3.125rem;
     background: #3CDDF3;
 }
-
 .get-for-it h2{
     color: #FFF;
     width: 20.25rem;
-    height: ;
     text-align: center;
     font-size: 2.5rem;
     font-weight: 700;
     line-height: 119.6%;
     letter-spacing: -0.013rem;
 }
-
-
 .boton-go-for-it{
     width: 8.375rem;
     height: 2.75rem;
@@ -331,15 +278,12 @@ h4{
     align-self:center;
     padding: 0.625rem;
     padding-left: 2.5rem;
-}
-    
+}   
 .boton-go-for-it a{  
     font-size: 0.824rem;
     color: #FFF;
     font-weight: 500; 
 }
-
-
 footer{
     width: 100%;
     display: flex;
@@ -351,35 +295,25 @@ footer{
     background: #1E1E26;
     text-align: center;
 }
-
-
 .go {
-    display: flex;
     padding:0.625rem 3.125rem 0.625rem 3.125rem;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+}
+.go form{
+    display: flex;    
+    align-items: center; 
+    justify-content: space-between;  
     gap: 0.563rem;
 }
-
-.go form{
-    display: flex;
+.go form input{
+    width: 80%;
     height: 2.75rem;
     padding: 0.625rem;
-    align-items: center;
-    gap: 0.625rem;
-    flex: 1 0 0;
     border-radius: 3.125rem;
     background: #FFF;
-}
-
-.go form input{
     border: none;
 }
-
-
-
 .go #button-go{
+    height: 2.625rem;
     border-radius: 1.875rem;
     background:#8B48BF;
     padding: 0.625rem 1.563rem;
@@ -388,26 +322,28 @@ footer{
     font-weight: 500;
     border:none;
 }
-
-
-
 .banner-footer {
     display: flex;
     justify-content: center;
     gap: 9.375rem;
 
 }
-
 .banner-footer ul{
     display: flex;
     flex-direction: column;
     gap: 0.75rem;
-    color: #FFF;
     font-size: 1rem;
     font-weight: 400;
     text-align: left;
+    list-style: none;
 }
-
+.banner-footer ul li a{
+    text-decoration: none;
+    color: #FFF;
+}
+.banner-footer ul li a:hover{
+    color: #8B48BF;
+}
 .icons{
     display: flex;
     flex-direction: row;
@@ -415,7 +351,6 @@ footer{
     justify-content: space-between;
     gap: Auto;
 }
-
 footer .logo{
     margin:  0.625rem;
     width: 10rem;
@@ -424,7 +359,6 @@ footer .logo{
     justify-content: center;
     padding-left: 45%;
 }
-
 #copyright{
     padding: 0.625rem;
     gap: 0.625rem;
