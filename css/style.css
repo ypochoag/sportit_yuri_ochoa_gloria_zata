@@ -286,6 +286,13 @@ footer{
     border-radius: 3.125rem;
     border: none;
 }
+
+input:focus{
+    color: orange;
+    font-weight: bold;
+}
+
+
 .go #button-go{
     height: 2.625rem;
     border-radius: 1.875rem;
@@ -364,6 +371,26 @@ footer .logo{
     .banner-header ul li a:hover{
         color: #8B48BF;
     }
+    .banner-header ul li:nth-child(1){
+        border-radius: 0.4rem;
+        background-color: #f2e3fd;
+    }
+    .banner-header ul li:nth-child(2){
+        border-radius: 0.4rem;
+        background-color: #f2e3fd;
+    }
+    .banner-header ul li:nth-child(3){
+        border-radius: 0.4rem;
+        background-color: #f2e3fd;
+    }
+    .banner-header ul li:nth-child(4){
+        border-radius: 0.4rem;
+        background-color: #f2e3fd;
+    }
+    .banner-header ul li:nth-child(5){
+        border-radius: 0.4rem;
+        background-color: #f2e3fd;
+    }
     .banner-menu{
         display: none;
     }
@@ -412,6 +439,11 @@ footer .logo{
     }
     .question-section div{ 
         flex-basis: 50%;
+    }
+
+    .question-section div::after{
+        content:"...";
+        color: #8C8C94;
     }
     .card-section {
         flex-direction: row;
@@ -475,7 +507,8 @@ footer .logo{
     /* ----------------- footer style ---------------------*/
     .footerfinal{
         padding: 5% 5% 0% 5%;
-        flex-direction: row-reverse;     
+        flex-direction: row-reverse;
+        justify-content: space-between;     
     }
     .iconosylogo{
         display: flex;
