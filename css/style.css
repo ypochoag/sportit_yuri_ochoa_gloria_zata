@@ -115,11 +115,9 @@ h2{
     gap: 1.25rem ;
 }
 .card {
-    width: 27.875rem;
     display: flex;
     flex-direction: column;    
-    align-content: stretch;
-    gap: 1.313rem ;
+    gap: 1.313rem;
 }
 .card #titulo{
     display: flex;
@@ -136,6 +134,7 @@ h2{
     color: #FFF;
     font-size: 1rem;
     font-weight: 700;
+    padding-right: 2rem;
 }
 .card #item{
     color: #323851;
@@ -173,7 +172,6 @@ h3{
     position: relative;
 }
 .personal-article{
-    width: 24.375rem;
     display: inline-flex;
     flex-direction: column;    
     gap: 1.313rem;
@@ -471,6 +469,7 @@ footer .logo{
         justify-content: space-around; 
      }
     .card {
+        width: 27.875rem;
         position: relative;
         min-width: 33rem;
      }
@@ -497,6 +496,7 @@ footer .logo{
         flex-direction: row;
     }
     .personal-article{
+        width: 24.375rem;
         margin-left: 2rem;
     }
     #sanyo1{
