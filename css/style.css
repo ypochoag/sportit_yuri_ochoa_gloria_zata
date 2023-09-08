@@ -12,61 +12,38 @@ body{
 }
 /* ----------------- Header style ---------------------*/
 header{
-    width: 100%;
     display: flex;
-    flex-direction: row;
     padding:2rem 3rem 2rem 3rem;
     justify-content: space-between;
     align-items: center;
 }
 .logo{
-    width: 10rem;
     height: 1.8rem;
     display: flex;
 }
 .banner-header{
-    color: rgb(36, 46, 82);
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 176.1%;
     display: none;    
-}
-.banner-menu{
-    width: 3rem;
-    height: 3rem;
-    display: flex;
 }
 .contact-boton{
     display: none;
 }
 /* ----------------- menu style ---------------------*/
 .deportista-section{
-    width: 100%;
     display: flex;
     flex-direction: column;    
-    justify-content: space-between;
-    align-content: stretch;
     padding:2rem 3rem 2rem 2rem;
     gap: 6.25rem ;
-}
-.deportista-section img{
-    width: 26rem;
-    height: 25rem;
 }
 .FraseHome{
     width: 100%;
     display: flex;
     flex-direction: column;    
-    justify-content: space-between;
     gap: 1.25rem ;
 }
 h1{
     color: rgb(35, 44, 80);
     text-align: right;
     font-size: 3.125rem;
-    font-style: normal;
-    font-weight: 700;
     line-height: 114.6%; 
     letter-spacing: -0.106rem;
 }
@@ -97,13 +74,10 @@ h1{
 .FraseHome div a:hover{
     color: #c2c2c2;
 }
-.question-section {
+.question-section{
     display: flex;
-    width: 100%;
     padding: 2.5rem 1.25rem;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background: #3CDDF3;
     gap: 3.125rem;
 }
@@ -123,11 +97,8 @@ h2{
     padding-right: 1rem;
 }
 .card-section {
-    width: 100%;
     display: flex;
     flex-direction: column;    
-    justify-content: space-between;
-    align-content: stretch;
     padding:4.25rem 0rem 2rem 2.125rem;
     gap: 1.25rem ;
 }
@@ -135,7 +106,6 @@ h2{
     width: 27.875rem;
     display: flex;
     flex-direction: column;    
-    justify-content: space-between;
     align-content: stretch;
     gap: 1.313rem ;
 }
@@ -251,7 +221,6 @@ h4{
 .boton-more  a:hover{
     color: #c2c2c2;
 }
-
 .get-for-it {
     display: flex;
     padding: 2.5rem 3.125rem;
@@ -261,7 +230,6 @@ h4{
     background: #3CDDF3;
 }
 .get-for-it h2{
-    color: #FFF;
     width: 70%;
     text-align: center;
     font-size: 2.5rem;
@@ -291,20 +259,15 @@ h4{
 }
 
 /* ----------------- footer style ---------------------*/
-
 footer{
     display: flex;
     flex-direction: column;   
     background: #1E1E26;
     text-align: center;
 }
-
 .footerfinal{
-    width: 100%;
     display: flex;
     flex-direction: column;    
-    justify-content: space-between;
-    align-content: center;
     padding:2.5rem 0rem 2.5rem 0rem;
     gap: 1.563rem;  
 }
@@ -313,8 +276,7 @@ footer{
 }
 .go form{
     display: flex;    
-    align-items: center; 
-    justify-content: space-between;  
+    align-items: center;  
     gap: 0.563rem;
 }
 .go form input{
@@ -322,7 +284,6 @@ footer{
     height: 2.75rem;
     padding: 0.625rem;
     border-radius: 3.125rem;
-    background: #FFF;
     border: none;
 }
 .go #button-go{
@@ -339,7 +300,6 @@ footer{
     display: flex;
     justify-content: center;
     gap: 9.375rem;
-
 }
 .banner-footer ul{
     display: flex;
@@ -362,7 +322,6 @@ footer{
     flex-direction: row;
     padding: 0.625rem 3.125rem;
     justify-content: space-between;
-    gap: Auto;
 }
 footer .logo{
     margin:  0.625rem;
@@ -374,12 +333,11 @@ footer .logo{
 }
 #copyright{
     padding-bottom: 3rem;
-    gap: 0.625rem;
     color: #8C8C94;
     font-size: 0.781rem;
     font-weight: 500;
-
 }
+
 /* ----------------- media Queries style ---------------------*/
 @media (min-width: 481px){
     header{
@@ -442,13 +400,12 @@ footer .logo{
     .FraseHome{ 
         width:50%; 
     }
-
     .question-section {
         background: #8B48BF;
         padding:2.5rem 10rem;
         flex-direction: row;
-        justify-content:space-between;
         align-items: center;
+        gap: 6.25rem;
     }
     .h2{
         flex-basis: 50%;
@@ -456,14 +413,13 @@ footer .logo{
     .question-section div{ 
         flex-basis: 50%;
     }
-
     .card-section {
         flex-direction: row;
         background: #FAFAFA;
         flex-wrap: wrap;
         justify-content: space-around; 
      }
-     .card {
+    .card {
         position: relative;
         min-width: 33rem;
      }
@@ -481,7 +437,6 @@ footer .logo{
         padding-left:  5rem;
         min-width: 31.25rem;
     }
-
     .best-month-section{
         align-items: center;
     } 
@@ -493,14 +448,12 @@ footer .logo{
     .personal-article{
         margin-left: 2rem;
     }
-
     #sanyo1{
         display: flex;
     }
     #navarro3{
         display: flex;
     }
-
     .get-for-it {
         flex-direction: row;
         justify-content: space-between;
@@ -520,31 +473,24 @@ footer .logo{
     }
     
     /* ----------------- footer style ---------------------*/
-    
-
     .footerfinal{
         padding: 5% 5% 0% 5%;
         flex-direction: row-reverse;     
     }
-
     .iconosylogo{
         display: flex;
         flex-direction: column-reverse; 
         justify-content: space-between;
-    }
-    
+    }  
     footer .logo{
         padding: 0%;
         justify-content: left;
     }
-
     footer .icons{
         padding: 1%;
     }
-
     #copyright{
         text-align: right;
         padding-right: 8%;
-    }
-    
+    }   
 }
