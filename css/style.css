@@ -21,6 +21,9 @@ header{
     height: 1.8rem;
     display: flex;
 }
+.logo:hover{
+    transform: translateX(2em);
+}
 .banner-header{
     display: none;    
 }
@@ -33,6 +36,10 @@ header{
     flex-direction: column;    
     padding:2rem 3rem 2rem 2rem;
     gap: 6.25rem ;
+}
+
+.deportista-section img:hover{
+    transform: rotate(0.1turn);
 }
 .FraseHome{
     width: 100%;
@@ -59,11 +66,16 @@ h1{
     width: 8.375rem;
     height: 2.75rem;
     border-radius: 3.125rem;
-    background: #8B48BF;
+    background-color: #8B48BF;
     box-shadow: 0rem 0.25rem 0.438rem 0rem rgba(0, 0, 0, 0.25);
     align-self: flex-end;
     justify-content: center;
     align-items: center;
+    transition-property: background-color, color;
+    transition-duration: 0.5s;
+}
+.FraseHome div:hover{
+    background: rgb(196, 135, 209);
 }
 .FraseHome div a{  
     text-decoration: none;
@@ -72,7 +84,7 @@ h1{
     font-weight: 500; 
 }
 .FraseHome div a:hover{
-    color: #c2c2c2;
+    color: #644164;
 }
 .question-section{
     display: flex;
@@ -173,6 +185,9 @@ h3{
     max-height: 10rem;
     max-width: 10rem;
 }
+.personal-article div img:hover{
+    transform: scale(1.1) translate(20%, 20%);
+}
 h4{
     color: #3F4868;
     font-size: 1.004rem;
@@ -206,12 +221,17 @@ h4{
     width: 8.375rem;
     height: 2.75rem;
     border-radius: 3.125rem;
-    background: #8B48BF;
+    background-color: #8B48BF;
     box-shadow: 0rem 0.25rem 0.438rem 0rem rgba(0, 0, 0, 0.25);
     align-self:center;
     justify-content: center;
     align-items: center;
+    transition-property: background-color, color;
+    transition-duration: 0.7s;
 } 
+.boton-more:hover{
+    background:rgb(196, 135, 209);
+}
 .boton-more a{ 
     text-decoration: none;     
     font-size: 0.813rem;
@@ -219,7 +239,7 @@ h4{
     font-weight: 500; 
 }
 .boton-more  a:hover{
-    color: #c2c2c2;
+    color: #644164;
 }
 .get-for-it {
     display: flex;
@@ -242,12 +262,17 @@ h4{
     width: 8.375rem;
     height: 2.75rem;
     border-radius: 3.125rem;
-    background: #232C50;;
+    background-color: #232C50;;
     box-shadow: 0rem 0.25rem 0.5rem 0rem rgba(0, 0, 0, 0.25);
     align-self:center;
     justify-content: center;
     align-items: center;
+    transition-property: background-color, color;
+    transition-duration: 0.7s;
 }   
+.boton-go-for-it:hover{
+    background:rgb(238, 220, 241);
+}
 .boton-go-for-it a{  
     text-decoration: none;
     font-size: 0.824rem;
@@ -255,7 +280,7 @@ h4{
     font-weight: 500; 
 }
 .boton-go-for-it a:hover{
-    color: #aca7a7;
+    color: #644164;
 }
 
 /* ----------------- footer style ---------------------*/
@@ -286,22 +311,24 @@ footer{
     border-radius: 3.125rem;
     border: none;
 }
-
 input:focus{
     color: orange;
     font-weight: bold;
 }
-
-
 .go #button-go{
     height: 2.625rem;
     border-radius: 1.875rem;
-    background:#8B48BF;
+    background-color:#8B48BF;
     padding: 0.625rem 1.563rem;
     color: #FFF;
     font-size: 0.824rem;
     font-weight: 500;
     border:none;
+    transition-property: background-color, color;
+    transition-duration: 0.7s;
+}
+.go #button-go:hover{
+    background:rgb(173, 96, 185);
 }
 .banner-footer {
     display: flex;
@@ -371,26 +398,6 @@ footer .logo{
     .banner-header ul li a:hover{
         color: #8B48BF;
     }
-    .banner-header ul li:nth-child(1){
-        border-radius: 0.4rem;
-        background-color: #f2e3fd;
-    }
-    .banner-header ul li:nth-child(2){
-        border-radius: 0.4rem;
-        background-color: #f2e3fd;
-    }
-    .banner-header ul li:nth-child(3){
-        border-radius: 0.4rem;
-        background-color: #f2e3fd;
-    }
-    .banner-header ul li:nth-child(4){
-        border-radius: 0.4rem;
-        background-color: #f2e3fd;
-    }
-    .banner-header ul li:nth-child(5){
-        border-radius: 0.4rem;
-        background-color: #f2e3fd;
-    }
     .banner-menu{
         display: none;
     }
@@ -399,10 +406,15 @@ footer .logo{
         width: 8.375rem;
         height: 2.75rem;
         border-radius: 3.125rem;
-        background: #8B48BF;
+        background-color: #8B48BF;
         box-shadow: 0rem 0.25rem 0.438rem 0rem rgba(0, 0, 0, 0.25);
         justify-content: center;
         align-items: center;
+        transition-property: background-color, color;
+        transition-duration: 0.7s;
+    }
+    .contact-boton:hover{
+        background:rgb(196, 135, 209);
     }
     .contact-boton a{  
         text-decoration: none;
@@ -411,7 +423,7 @@ footer .logo{
         font-weight: 500;    
     }
     .contact-boton a:hover{
-        color: #c2c2c2;
+        color: #644164;
     }
 
     /* ----------------- menu style ---------------------*/
@@ -438,12 +450,19 @@ footer .logo{
         flex-basis: 50%;
     }
     .question-section div{ 
-        flex-basis: 50%;
+        display: none;
     }
-
-    .question-section div::after{
-        content:"...";
-        color: #8C8C94;
+    .question-section span::after{
+        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas aliquet consequat purus sit amet sodales. In faucibus ut nisi eu dignissim. Vestibulum fringilla velit sed tincidunt tincidunt.";
+    }
+    .question-section span{
+        color: #FFF;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 151.1%; 
+        padding-right: 1rem;
+        flex-basis: 50%;
     }
     .card-section {
         flex-direction: row;
