@@ -88,7 +88,7 @@ h1{
 }
 .question-section{
     display: flex;
-    padding: 2.5rem 1.25rem;
+    padding: 2.5rem 1.25rem 0rem 1.25rem;
     flex-direction: column;
     background: #3CDDF3;
     gap: 3.125rem;
@@ -481,10 +481,10 @@ footer .logo{
         position: absolute;
     }
     .card #item{
-        padding-left: 5rem;
+        padding-left: 6rem;
     }
     .card #parrafo{
-        padding-left:  5rem;
+        padding-left:  6rem;
         min-width: 31.25rem;
     }
     .best-month-section{
