@@ -12,14 +12,14 @@ body{
 }
 /* ----------------- Header style ---------------------*/
 header{
+    align-items: center;    
     display: flex;
-    padding:2rem 3rem 2rem 3rem;
     justify-content: space-between;
-    align-items: center;
+    padding:2rem 3rem 2rem 3rem;
 }
 .logo{
+    display: flex;    
     height: 1.8rem;
-    display: flex;
 }
 .logo:hover{
     transform: translateX(2em);
@@ -33,65 +33,65 @@ header{
 /* ----------------- menu style ---------------------*/
 .deportista-section{
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;  
+    gap: 6.25rem ;      
     padding:2rem 3rem 2rem 2rem;
-    gap: 6.25rem ;
 }
 
 .deportista-section img:hover{
     transform: rotate(0.1turn);
 }
 .FraseHome{
-    width: 100%;
-    display: flex;
+    display: flex;    
     flex-direction: column;    
     gap: 1.25rem ;
+    width: 100%;
 }
 h1{
     color: rgb(35, 44, 80);
-    text-align: right;
     font-size: 3.125rem;
-    line-height: 114.6%; 
     letter-spacing: -0.106rem;
+    line-height: 114.6%;     
+    text-align: right;    
 }
 .FraseHome p{
     color: rgb(0, 0, 0);
-    text-align: right;
     font-size: 1.10rem;
     font-weight: 700;
     line-height: 157.1%;
+    text-align: right;    
 }
 .FraseHome div{
+    align-items: center; 
+    align-self: flex-end;    
+    background-color: #8B48BF;  
+    border-radius: 3.125rem; 
+    box-shadow: 0rem 0.25rem 0.438rem 0rem rgba(0, 0, 0, 0.25);            
     display: flex;
-    width: 8.375rem;
     height: 2.75rem;
-    border-radius: 3.125rem;
-    background-color: #8B48BF;
-    box-shadow: 0rem 0.25rem 0.438rem 0rem rgba(0, 0, 0, 0.25);
-    align-self: flex-end;
     justify-content: center;
-    align-items: center;
     transition-property: background-color, color;
     transition-duration: 0.5s;
+    width: 8.375rem;
 }
 .FraseHome div:hover{
     background: rgb(196, 135, 209);
 }
-.FraseHome div a{  
-    text-decoration: none;
-    font-size: 0.813rem;
+.FraseHome div a{ 
     color: aliceblue;
-    font-weight: 500; 
+    font-weight: 500;     
+    font-size: 0.813rem;     
+    text-decoration: none;
 }
 .FraseHome div a:hover{
     color: #644164;
 }
 .question-section{
+    background: #3CDDF3;    
     display: flex;
-    padding: 2.5rem 1.25rem 0rem 1.25rem;
     flex-direction: column;
-    background: #3CDDF3;
     gap: 3.125rem;
+    padding: 2.5rem 1.25rem 0rem 1.25rem;
 }
 h2{
     color:  #FFF;
@@ -111,8 +111,8 @@ h2{
 .card-section {
     display: flex;
     flex-direction: column;    
+    gap: 1.25rem ;    
     padding:4.25rem 0rem 2rem 2.125rem;
-    gap: 1.25rem ;
 }
 .card {
     display: flex;
@@ -120,42 +120,42 @@ h2{
     gap: 1.313rem;
 }
 .card #titulo{
-    display: flex;
     align-items: center;
-    gap: 0.5rem;
     align-self: stretch;
     border-radius: 3.125rem 0rem 0rem 3.125rem;
-    background: rgba(139, 72, 191, 0.30);
+    background: rgba(139, 72, 191, 0.30);    
+    display: flex;
+    gap: 0.5rem;
 }
 .card #number{
     border-radius: 1.875rem;
     background:#8B48BF;
-    padding: 0.625rem 1.563rem;
     color: #FFF;
     font-size: 1rem;
-    font-weight: 700;
+    font-weight: 700;    
+    padding: 0.625rem 1.563rem;
     padding-right: 2rem;
 }
 .card #item{
     color: #323851;
-    letter-spacing: -0.24px;
     font-size: 1rem;
     font-weight: 700;
+    letter-spacing: -0.24px;    
 }
 .card #parrafo{
+    color: #B3B2B7;    
     display: flex;
-    padding: 0.625rem;
-    color: #B3B2B7;
     font-size: 1.019rem;
-    font-weight: 400;
+    font-weight: 400;   
     line-height: 156.6%;
-    letter-spacing: -0.01rem;
+    letter-spacing: -0.01rem;     
+    padding: 0.625rem;
 }
 .best-month-section{
     display: flex;
     flex-direction: column;
+    gap: 3rem ;    
     padding: 1.063rem ;
-    gap: 3rem ;
 } 
 h3{
     color: #242E53;
@@ -166,9 +166,9 @@ h3{
     text-align: center;
 }
 .stories{
+    align-items: center;    
     display: inline-flex;
     flex-direction: column;
-    align-items: center;
     position: relative;
 }
 .personal-article{
@@ -176,7 +176,6 @@ h3{
     flex-direction: column;    
     gap: 1.313rem;
     text-align: center;
-
 }
 .personal-article div img{
     border-radius: 50%;
@@ -200,13 +199,13 @@ h4{
     line-height: 156.6%;
 }
 .personal-article #rectangulo{
-    position: absolute;
-    width: 100%;
-    height: 13.688rem;
     background:#FAFAFA;
+    bottom: 0%;    
+    left: 0%;    
+    height: 13.688rem;
+    position: absolute;    
+    width: 100%;
     z-index: -10;
-    bottom: 0%;
-    left: 0%;
 }
 #sanyo1{
     display: none;
@@ -215,67 +214,67 @@ h4{
     display: none;
 }
 .boton-more{
+    align-self:center; 
+    align-items: center;    
+    background-color: #8B48BF;  
+    border-radius: 3.125rem;     
+    box-shadow: 0rem 0.25rem 0.438rem 0rem rgba(0, 0, 0, 0.25);        
     display: flex;
-    width: 8.375rem;
     height: 2.75rem;
-    border-radius: 3.125rem;
-    background-color: #8B48BF;
-    box-shadow: 0rem 0.25rem 0.438rem 0rem rgba(0, 0, 0, 0.25);
-    align-self:center;
     justify-content: center;
-    align-items: center;
     transition-property: background-color, color;
     transition-duration: 0.7s;
+    width: 8.375rem;    
 } 
 .boton-more:hover{
     background:rgb(196, 135, 209);
 }
 .boton-more a{ 
-    text-decoration: none;     
-    font-size: 0.813rem;
     color: #FFF;
     font-weight: 500; 
+    font-size: 0.813rem;
+    text-decoration: none;  
 }
 .boton-more  a:hover{
     color: #644164;
 }
 .get-for-it {
+    align-items: center;    
+    background: #3CDDF3;    
     display: flex;
-    padding: 2.5rem 3.125rem;
     flex-direction: column;
-    align-items: center;
     gap: 3.125rem;
-    background: #3CDDF3;
+    padding: 2.5rem 3.125rem;
 }
 .get-for-it h2{
-    width: 70%;
-    text-align: center;
     font-size: 2.5rem;
     font-weight: 700;
     line-height: 119.6%;
     letter-spacing: -0.013rem;
+    text-align: center;
+    width: 70%;
 }
 .boton-go-for-it{
-    display: flex;
-    width: 8.375rem;
-    height: 2.75rem;
+    align-items: center;    
+    align-self:center;   
     border-radius: 3.125rem;
-    background-color: #232C50;;
-    box-shadow: 0rem 0.25rem 0.5rem 0rem rgba(0, 0, 0, 0.25);
-    align-self:center;
+    background-color: #232C50;
+    box-shadow: 0rem 0.25rem 0.5rem 0rem rgba(0, 0, 0, 0.25);       
+    display: flex;
+    height: 2.75rem;
     justify-content: center;
-    align-items: center;
     transition-property: background-color, color;
     transition-duration: 0.7s;
+    width: 8.375rem;    
 }   
 .boton-go-for-it:hover{
     background:rgb(238, 220, 241);
 }
 .boton-go-for-it a{  
-    text-decoration: none;
+    color: #FFF;    
     font-size: 0.824rem;
-    color: #FFF;
     font-weight: 500; 
+    text-decoration: none;
 }
 .boton-go-for-it a:hover{
     color: #644164;
@@ -283,45 +282,45 @@ h4{
 
 /* ----------------- footer style ---------------------*/
 footer{
+    background: #1E1E26;   
     display: flex;
     flex-direction: column;   
-    background: #1E1E26;
     text-align: center;
 }
 .footerfinal{
     display: flex;
     flex-direction: column;    
+    gap: 1.563rem;      
     padding:2.5rem 0rem 2.5rem 0rem;
-    gap: 1.563rem;  
 }
 .go {
     padding:0.625rem 3.125rem 0.625rem 3.125rem;
 }
 .go form{
-    display: flex;    
-    align-items: center;  
+    align-items: center;     
+    display: flex;     
     gap: 0.563rem;
 }
 .go form input{
-    width: 80%;
+    border-radius: 3.125rem;
+    border: none;    
     height: 2.75rem;
     padding: 0.625rem;
-    border-radius: 3.125rem;
-    border: none;
+    width: 80%;
 }
 input:focus{
     color: orange;
     font-weight: bold;
 }
 .go #button-go{
-    height: 2.625rem;
+    border:none;
     border-radius: 1.875rem;
     background-color:#8B48BF;
-    padding: 0.625rem 1.563rem;
     color: #FFF;
     font-size: 0.824rem;
     font-weight: 500;
-    border:none;
+    height: 2.625rem;    
+    padding: 0.625rem 1.563rem;
     transition-property: background-color, color;
     transition-duration: 0.7s;
 }
@@ -330,21 +329,21 @@ input:focus{
 }
 .banner-footer {
     display: flex;
+    gap: 9.375rem;    
     justify-content: center;
-    gap: 9.375rem;
 }
 .banner-footer ul{
     display: flex;
     flex-direction: column;
-    gap: 0.75rem;
     font-size: 1rem;
     font-weight: 400;
+    gap: 0.75rem;    
+    list-style: none;   
     text-align: left;
-    list-style: none;
 }
 .banner-footer ul li a{
+    color: #FFF;    
     text-decoration: none;
-    color: #FFF;
 }
 .banner-footer ul li a:hover{
     color: #8B48BF;
@@ -352,46 +351,46 @@ input:focus{
 .icons{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;    
     padding: 0.625rem 3.125rem;
-    justify-content: space-between;
 }
 footer .logo{
-    margin:  0.625rem;
-    width: 10rem;
+    display: flex;    
     height: 1.8rem;
-    display: flex;
-    justify-content: center;
-    padding-left: 45%;
+    justify-content: center;    
+    margin:  0.625rem;
+    padding-left: 45%;    
+    width: 10rem;
 }
 #copyright{
-    padding-bottom: 3rem;
     color: #8C8C94;
     font-size: 0.781rem;
-    font-weight: 500;
+    font-weight: 500;    
+    padding-bottom: 3rem;
 }
 
 /* ----------------- media Queries style ---------------------*/
 @media (min-width: 481px){
     header{
-        padding:4rem 12%;
+        align-items: center;        
         justify-content: space-between;
-        align-items: center;
+        padding:4rem 12%;
     }
     .banner-header {
         display: flex;
         justify-content: center;
-       }
+    }
     .banner-header ul{
         display: flex;
-        gap:1.75rem;
         font-size: 0.813rem;
-        font-weight: 500;
+        font-weight: 500;        
+        gap:1.75rem;
         line-height: 176.1%;
         list-style: none;
     }
     .banner-header ul li a{
+        color: #242E52;        
         text-decoration: none;
-        color: #242E52;
     }
     .banner-header ul li a:hover{
         color: #8B48BF;
@@ -400,24 +399,24 @@ footer .logo{
         display: none;
     }
     .contact-boton {
-        display: flex;
-        width: 8.375rem;
-        height: 2.75rem;
-        border-radius: 3.125rem;
+        align-items: center;        
         background-color: #8B48BF;
-        box-shadow: 0rem 0.25rem 0.438rem 0rem rgba(0, 0, 0, 0.25);
+        border-radius: 3.125rem;        
+        box-shadow: 0rem 0.25rem 0.438rem 0rem rgba(0, 0, 0, 0.25);        
+        display: flex;
+        height: 2.75rem;
         justify-content: center;
-        align-items: center;
         transition-property: background-color, color;
-        transition-duration: 0.7s;
+        transition-duration: 0.7s;        
+        width: 8.375rem;
     }
     .contact-boton:hover{
         background:rgb(196, 135, 209);
     }
     .contact-boton a{  
+        color: #FFF;        
         text-decoration: none;
         font-size: 0.813rem;
-        color: #FFF;
         font-weight: 500;    
     }
     .contact-boton a:hover{
@@ -426,23 +425,23 @@ footer .logo{
 
     /* ----------------- menu style ---------------------*/
     .deportista-section{
+        align-items: center;        
         flex-direction: row;    
         padding:4rem 10rem;
-        align-items: center;
     }
     .deportista-section img{
-        width: 50%;
         height: 50%;
+        width: 50%;        
     }
     .FraseHome{ 
         width:50%; 
     }
     .question-section {
+        align-items: center;        
         background: #8B48BF;
-        padding:2.5rem 10rem;
         flex-direction: row;
-        align-items: center;
         gap: 6.25rem;
+        padding:2.5rem 10rem;
     }
     .h2{
         flex-basis: 50%;
@@ -454,28 +453,28 @@ footer .logo{
         content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas aliquet consequat purus sit amet sodales. In faucibus ut nisi eu dignissim. Vestibulum fringilla velit sed tincidunt tincidunt.";
     }
     .question-section span{
-        color: #FFF;
+        color: #FFF;        
+        flex-basis: 50%;
         font-size: 1rem;
         font-style: normal;
         font-weight: 500;
         line-height: 151.1%; 
         padding-right: 1rem;
-        flex-basis: 50%;
     }
     .card-section {
-        flex-direction: row;
         background: #FAFAFA;
         flex-wrap: wrap;
+        flex-direction: row;        
         justify-content: space-around; 
      }
     .card {
-        width: 27.875rem;
+        min-width: 33rem;        
         position: relative;
-        min-width: 33rem;
+        width: 27.875rem;
      }
     .card #titulo{
+        background: none;        
         border-radius: none;
-        background: none;
     }
     .card #number{
         position: absolute;
@@ -484,20 +483,20 @@ footer .logo{
         padding-left: 6rem;
     }
     .card #parrafo{
+        min-width: 31.25rem;        
         padding-left:  6rem;
-        min-width: 31.25rem;
     }
     .best-month-section{
         align-items: center;
     } 
     .stories{
         flex-wrap: wrap; 
+        flex-direction: row;        
         justify-content: center;
-        flex-direction: row;
     }
     .personal-article{
-        width: 24.375rem;
         margin-left: 2rem;
+        width: 24.375rem;        
     }
     #sanyo1{
         display: flex;
@@ -506,9 +505,9 @@ footer .logo{
         display: flex;
     }
     .get-for-it {
+        background: #8B48BF;        
         flex-direction: row;
         justify-content: space-between;
-        background: #8B48BF;
         padding: 5% 13%;
     }
     .get-for-it h2{
@@ -525,9 +524,9 @@ footer .logo{
     
     /* ----------------- footer style ---------------------*/
     .footerfinal{
-        padding: 5% 5% 0% 5%;
         flex-direction: row-reverse;
-        justify-content: space-between;     
+        justify-content: space-between;  
+        padding: 5% 5% 0% 5%;           
     }
     .iconosylogo{
         display: flex;
@@ -535,8 +534,8 @@ footer .logo{
         justify-content: space-between;
     }  
     footer .logo{
-        padding: 0%;
         justify-content: left;
+        padding: 0%;        
     }
     footer .icons{
         padding: 1%;
